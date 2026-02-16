@@ -77,6 +77,8 @@
     <property name="title">
      <string>Preferences</string>
     </property>
+    <addaction name="actionDarkTheme"/>
+    <addaction name="actionLightTheme"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
@@ -265,6 +267,16 @@
    </property>
    <property name="shortcut">
     <string>F1</string>
+   </property>
+  </action>
+  <action name="actionDarkTheme">
+   <property name="text">
+    <string>Dark</string>
+   </property>
+  </action>
+  <action name="actionLightTheme">
+   <property name="text">
+    <string>Light</string>
    </property>
   </action>
  </widget>
